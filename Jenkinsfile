@@ -9,7 +9,7 @@ pipeline {
         }
         stage('Run') {
             steps {
-                sh 'myscript'
+                sh './myscript'
             }
 	}
         stage('Archive') {
